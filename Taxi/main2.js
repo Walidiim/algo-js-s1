@@ -21,7 +21,7 @@ traject(playlist){
         this.sanity -= 1
         NbrChangeTaxi += 1
             console.log("anissa est passé à la radio")
-            console.log("John change de taxi")
+            console.log("John change de taxi" + ", il a changé "+ NbrChangeTaxi + " fois de taxi")
             console.log("John a "+ this.sanity + " de santé mental")
     }
     if(this.sanity===0){
@@ -29,7 +29,7 @@ traject(playlist){
         break
     }
     if (RedLightsNbr===30){
-        console.log("John est arrivé chez lui, il a "+ this.sanity+ " de santé mental")
+        console.log("John est arrivé chez lui, il a "+ this.sanity+ " de santé mental" + ", il a changé "+ NbrChangeTaxi + " fois de taxi")
     }
        
     }
